@@ -16,14 +16,22 @@ TextStyle textStyleLight = GoogleFonts.raleway().copyWith(
   fontWeight: FontWeight.w300,
 );
 
-SizedBox height70 = const SizedBox(
-  height: 70,
-);
-
 SizedBox height16 = const SizedBox(
   height: 16,
 );
 
 SizedBox height20 = const SizedBox(
   height: 20,
+);
+
+SizedBox height30 = const SizedBox(
+  height: 30,
+);
+
+SizedBox height40 = const SizedBox(
+  height: 40,
+);
+
+SizedBox height70 = const SizedBox(
+  height: 70,
 );
