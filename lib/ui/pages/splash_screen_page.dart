@@ -5,7 +5,7 @@ class SplashScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    imageLogo() {
+    logoImage() {
       return Image.asset(
         'assets/logo.png',
         width: 160,
@@ -69,7 +69,7 @@ class SplashScreen extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              imageLogo(),
+              logoImage(),
               70.0.heightBox,
               titleText(),
               16.0.heightBox,
