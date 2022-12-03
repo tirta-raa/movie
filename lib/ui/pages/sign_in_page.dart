@@ -37,7 +37,7 @@ class _SignInPageState extends State<SignInPage> {
                 'Welcome Back,\nExplorer!',
                 style: textStyleMedium.copyWith(fontSize: 20),
               ),
-              height40,
+              40.0.heightBox,
               CustomTextField(
                 controller: emailController,
                 onChanged: (text) {
@@ -47,7 +47,7 @@ class _SignInPageState extends State<SignInPage> {
                 },
                 text: 'Email Address',
               ),
-              height16,
+              16.0.heightBox,
               CustomTextField(
                 obscureText: true,
                 controller: passwordController,
