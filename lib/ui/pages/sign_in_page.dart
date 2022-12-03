@@ -32,7 +32,7 @@ class _SignInPageState extends State<SignInPage> {
                 'assets/logo.png',
                 width: 70,
               ),
-              height70,
+              70.0.heightBox,
               Text(
                 'Welcome Back,\nExplorer!',
                 style: textStyleMedium.copyWith(fontSize: 20),
@@ -57,7 +57,8 @@ class _SignInPageState extends State<SignInPage> {
                   });
                 },
                 text: 'Password',
-              )
+              ),
+              30.0.heightBox,
             ],
           ),
         ),
